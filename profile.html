@@ -27,7 +27,8 @@
         <div class="border-bottom border-secondary py-3 row mx-0">
 
             <div class="col-md-3 p-0 position-relative">
-                <div class="position-absolute bg-black rounded-5 border border-2 ms-1 mt-1"><i class="bi bi-pencil-fill p-1"></i></div>
+                <div class="position-absolute bg-black rounded-5 border border-2 ms-1 mt-1"><i
+                        class="bi bi-pencil-fill p-1"></i></div>
                 <img src="assets/avatar.png" width="100px">
             </div>
 
@@ -37,8 +38,8 @@
                     <p class="bg-success px-2 py-1 mt-2">Strive Student</p>
                     <p class="mb-1">Language:</p>
                     <div class="dropdown">
-                        <button class="btn dropdown-toggle bg-black text-light mb-2 p-0 px-3" type="button" data-bs-toggle="dropdown"
-                            aria-expanded="false">
+                        <button class="btn dropdown-toggle bg-black text-light mb-2 p-0 px-3" type="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
                             English
                         </button>
                         <ul class="dropdown-menu">
@@ -60,11 +61,17 @@
 
                 <div class="pt-3">
                     <p>Autoplay controls</p>
-                    <div class="mb-3"><i class="bi bi-check-lg border border-secondary px-1 me-2 fs-5"></i><span
-                            class="" style="font-size:0.8em;">Autoplay next episode in a series on all devices.</span>
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                        <label class="form-check-label" for="flexCheckDefault">
+                            Autoplay next episode in a series on all devices.
+                        </label>
                     </div>
-                    <div><i class="bi bi-check-lg border border-secondary px-1 me-2 fs-5"></i>
-                        <span class="" style="font-size:0.8em">Autoplay previews while browsing on all devices.</span>
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked>
+                        <label class="form-check-label" for="flexCheckChecked">
+                            Autoplay previews while browsing on all devices
+                        </label>
                     </div>
                 </div>
 
