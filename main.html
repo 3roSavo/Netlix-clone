@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="main-style.css">
+</head>
+
+<body class=" bg-dark">
+
+    <nav class="navbar navbar-expand-lg position-sticky top-0 z-3 bg-dark px-3 shadow-lg">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#"><img src="assets/netflix_logo.png" width="100px"></a>
+            <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <a class="nav-link dropdown-toggle text-light" href="#" aria-expanded="false">
+                    <img class="" src="assets/avatar.png" width="35px">
+                </a>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active text-light" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link  text-light" href="#">TV Show</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-light" href="#">
+                            Movies
+                        </a>
+
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-light " href="#">Recently added</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-light" href="#">My list</a>
+                    </li>
+
+                </ul>
+                
+                <button class="navbar border-0 bg-dark" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <a class="nav-link text-light" href="#" aria-expanded="false">
+                        <i class="bi bi-search"></i>
+                    </a>
+                </button>
+    
+                <button class="navbar border-0 bg-dark ms-3" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <a class="nav-link text-light" href="#" aria-expanded="false">
+                        <span>KIDS</span>
+                    </a>
+                </button>
+    
+                <button class="navbar border-0 bg-dark mx-3" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <a class="nav-link text-light" href="#" aria-expanded="false">
+                        <i class="bi bi-bell-fill"></i>
+                    </a>
+                </button>
+    
+                <button class="navbar border-0 bg-dark pe-none" type="button">
+                    <img class="" src="assets/avatar.png" width="35px">
+                </button>
+                
+            </div>
+        </div>
+    </nav>
+
+    <div class="px-4">
+
+        <div class="d-flex justify-content-between my-3">
+            <div class="d-flex align-items-center">
+                <h1 class="text-light me-4">TV Show</h1>
+                <div class="dropdown">
+                    <button class="buttons btn btn-secondary dropdown-toggle rounded-0 bg-black ms-3 p-0 px-3"
+                        type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Genres
+                    </button>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="#">Drama</a></li>
+                        <li><a class="dropdown-item" href="#">Comedian</a></li>
+                        <li><a class="dropdown-item" href="#">Sci-fi</a></li>
+                    </ul>
+                </div>
+
+            </div>
+
+            <div class="d-flex align-items-center">
+                <span class="text-light border py-1 px-2 mx-2"><i class="bi bi-body-text"></i></span>
+                <span class="text-light border py-1 px-2"><i class="bi bi-grid-fill"></i></span>
+            </div>
+        </div>
+
+        <div class="mb-5">
+            <h3 class="text-light mb-3">Trending Now</h3>
+            <div class="row gx-1 gy-3">
+                <div class="col-12 col-sm-6 col-md-4 col-lg-3"><img class="w-100" src="assets/media/media0.webp"></div>
+                <div class="col-12 col-sm-6 col-md-4 col-lg-3"><img class="w-100" src="assets/media/media6.jpg"></div>
+                <div class="col-12 col-sm-6 col-md-4 col-lg-3"><img class="w-100" src="assets/media/media8.webp"></div>
+                <div class="col-12 col-sm-6 col-md-4 col-lg-3"><img class="w-100" src="assets/media/media14.webp"></div>
+                <div class="col-12 col-sm-6 col-md-4 col-lg-3 d-none d-sm-block"><img class="w-100"
+                        src="assets/media/media16.webp"></div>
+                <div class="col-12 col-sm-6 col-md-4 col-lg-3 d-none d-sm-block"><img class="w-100"
+                        src="assets/media/media19.webp"></div>
+                <div class="col-12 col-sm-6 col-md-4 col-lg-3 d-none d-md-block"><img class="w-100"
+                        src="assets/media/media21.webp"></div>
+                <div class="col-12 col-sm-6 col-md-4 col-lg-3 d-none d-md-block"><img class="w-100"
+                        src="assets/media/media23.webp"></div>
+                <div class="col-12 col-sm-6 col-md-4 col-lg-3 d-none d-md-block"><img class="w-100"
+                        src="assets/media/media25.webp"></div>
+                <div class="col-12 col-sm-6 col-md-4 col-lg-3 d-none d-lg-block"><img class="w-100"
+                        src="assets/media/media26.webp"></div>
+                <div class="col-12 col-sm-6 col-md-4 col-lg-3 d-none d-lg-block"><img class="w-100"
+                        src="assets/media/media27.jpg"></div>
+                <div class="col-12 col-sm-6 col-md-4 col-lg-3 d-none d-lg-block"><img class="w-100"
+                        src="assets/media/media28.jpg"></div>
+                <div class="col-12 col-sm-6 col-md-4 col-lg-3 d-none d-lg-block"><img class="w-100"
+                        src="assets/media/media29.jpg"></div>
+                <div class="col-12 col-sm-6 col-md-4 col-lg-3 d-none d-lg-block"><img class="w-100"
+                        src="assets/media/media30.jpg"></div>
+                <div class="col-12 col-sm-6 col-md-4 col-lg-3 d-none d-lg-block"><img class="w-100"
+                        src="assets/media/media31.webp"></div>
+                <div class="col-12 col-sm-6 col-md-4 col-lg-3 d-none d-lg-block"><img class="w-100"
+                        src="assets/media/media32.jpg"></div>
+            </div>
+        </div>
+
+        <div class="mb-5">
+            <h3 class="text-light mb-3">Watch It Again</h3>
+            <div class="row gx-1 gy-3">
+                <div class="col-12 col-sm-6 col-md-4 col-lg-3"><img class="w-100" src="assets/media/media1.jpg"></div>
+                <div class="col-12 col-sm-6 col-md-4 col-lg-3"><img class="w-100" src="assets/media/media2.webp"></div>
+                <div class="col-12 col-sm-6 col-md-4 col-lg-3"><img class="w-100" src="assets/media/media3.webp"></div>
+                <div class="col-12 col-sm-6 col-md-4 col-lg-3 d-none d-sm-block"><img class="w-100"
+                        src="assets/media/media4.jpg"></div>
+                <div class="col-12 col-sm-6 col-md-4 col-lg-3 d-none d-md-block"><img class="w-100"
+                        src="assets/media/media5.webp"></div>
+                <div class="col-12 col-sm-6 col-md-4 col-lg-3 d-none d-md-block"><img class="w-100"
+                        src="assets/media/media7.webp"></div>
+                <div class="col-12 col-sm-6 col-md-4 col-lg-3 d-none d-lg-block"><img class="w-100"
+                        src="assets/media/media9.jpg"></div>
+                <div class="col-12 col-sm-6 col-md-4 col-lg-3 d-none d-lg-block"><img class="w-100"
+                        src="assets/media/media10.jpg"></div>
+            </div>
+        </div>
+
+        <div class="mb-5">
+            <h3 class="text-light mb-3">New Releases</h3>
+            <div class="row gx-1 gy-3">
+                <div class="col-12 col-sm-6 col-md-4 col-lg-3"><img class="w-100" src="assets/media/media11.jpg"></div>
+                <div class="col-12 col-sm-6 col-md-4 col-lg-3"><img class="w-100" src="assets/media/media12.jpg"></div>
+                <div class="col-12 col-sm-6 col-md-4 col-lg-3"><img class="w-100" src="assets/media/media13.jpg"></div>
+                <div class="col-12 col-sm-6 col-md-4 col-lg-3 d-none d-sm-block"><img class="w-100"
+                        src="assets/media/media15.jpg"></div>
+                <div class="col-12 col-sm-6 col-md-4 col-lg-3 d-none d-md-block"><img class="w-100"
+                        src="assets/media/media17.jpg"></div>
+                <div class="col-12 col-sm-6 col-md-4 col-lg-3 d-none d-md-block"><img class="w-100"
+                        src="assets/media/media18.jpg"></div>
+                <div class="col-12 col-sm-6 col-md-4 col-lg-3 d-none d-lg-block"><img class="w-100"
+                        src="assets/media/media20.jpg"></div>
+                <div class="col-12 col-sm-6 col-md-4 col-lg-3 d-none d-lg-block"><img class="w-100"
+                        src="assets/media/media22.webp"></div>
+            </div>
+        </div>
+
+    </div>
+
+
+    <footer class="bg-dark text-light container w-75">
+
+        <div class="">
+            <span><i class="bi bi-facebook fs-5 mx-1"></i></span>
+            <span><i class="bi bi-instagram fs-5 mx-1"></i></span>
+            <span><i class="bi bi-twitter fs-5 mx-1"></i></span>
+            <span><i class="bi bi-youtube fs-5 mx-1"></i></span>
+        </div>
+
+        <div class="row my-3">
+            <div class="col-6 col-md-4 col-lg-3">Audio and Subtitles</div>
+            <div class="col-6 col-md-4 col-lg-3">Audio description</div>
+            <div class="col-6 col-md-4 col-lg-3">Help Center</div>
+            <div class="col-6 col-md-4 col-lg-3">Gift Cards</div>
+            <div class="col-6 col-md-4 col-lg-3">Media Center</div>
+            <div class="col-6 col-md-4 col-lg-3">Investor Relations</div>
+            <div class="col-6 col-md-4 col-lg-3">Jobs</div>
+            <div class="col-6 col-md-4 col-lg-3">Terms of use</div>
+            <div class="col-6 col-md-4 col-lg-3">Privacy</div>
+            <div class="col-6 col-md-4 col-lg-3">Legal Notices</div>
+            <div class="col-6 col-md-4 col-lg-3">Cookie Preferences</div>
+            <div class="col-6 col-md-4 col-lg-3">Corporate Informations</div>
+            <div class="col-6 col-md-4 col-lg-3">Contact Us</div>
+        </div>
+
+        <button class="btn text-light border rounded-0 shadow mt-3">Service Code</button>
+
+        <p class="my-3">© 1997-2019 Netflix, Inc . {i-o3on5uo234vuo}</p>
+
+    </footer>
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous">
+    </script>
+</body>
+</body>
+
+</html>
