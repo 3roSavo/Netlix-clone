@@ -5,3 +5,6 @@
     box-shadow: 3px 3px 10px black;
 } 
 
+nav li a:hover, nav button a:hover {
+    color:aqua !important;
+}
