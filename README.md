@@ -1,0 +1,1 @@
+Fedele riproduzione della famosa applicazione streaming Netflix, nella directory screenshots sono presenti alcuni campioni del progetto
