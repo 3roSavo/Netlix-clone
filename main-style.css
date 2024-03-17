@@ -144,3 +144,7 @@ nav button a:hover {
     opacity: 100 !important;
     background: linear-gradient(90deg, rgba(34, 37, 41, 0) 0%, rgba(34, 37, 41, 1) 100%) !important;
 }
+
+/*.bi-pencil-fill {
+    box-shadow: 20px 20px 10px black !important;
+}*/
